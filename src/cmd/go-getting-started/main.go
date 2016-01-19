@@ -8,6 +8,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+var (
+	version = ""
+)
+
 func main() {
 	port := os.Getenv("PORT")
 
@@ -22,6 +26,11 @@ func main() {
 
 	router.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.tmpl.html", nil)
+	})
+
+	router.GET("/version", func(c *gin.Context) {
+		c.String(http.StatusOK, version)
+
 	})
 
 	router.Run(":" + port)

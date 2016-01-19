@@ -34,7 +34,7 @@
 		{
 			"importpath": "golang.org/x/net/context",
 			"repository": "https://go.googlesource.com/net",
-			"revision": "a8e212f3d10e1cd58f7669dd2c9d757bf7b98f93",
+			"revision": "78e1654ef40b8b993e3355307740b1cac8f1db20",
 			"branch": "master",
 			"path": "/context"
 		},
