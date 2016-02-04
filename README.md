@@ -13,7 +13,7 @@ $ go get github.com/constabulary/gb/...
 $ cd ~/devel               #or wherever you keep your projects
 $ git clone https://github.com/freeformz/gb-go-getting-started.git
 $ cd gb-go-getting-started
-$ gb build all             #assumes $GOPATH/bin is in your $PATH
+$ gb build all
 $ heroku local
 ```
 
